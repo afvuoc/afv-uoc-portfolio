@@ -706,6 +706,7 @@ header {
 
         ul {
           width: 85vw;
+          padding-bottom: 5.5%;
 
           li {
             font-size:.95rem;
@@ -948,8 +949,8 @@ header {
     .container-form {
 
       .photo-form {
-        padding-top: calc(66px + 7%);
-        padding-bottom: 23%;
+        padding-top: calc(33px + 7%);
+        padding-bottom: calc(33px + 7%);
  
         div {
           padding-bottom: 8%;
@@ -979,6 +980,10 @@ header {
           .form-control {
             padding-top: 8%;
             padding-bottom: 4%;
+          }
+          button {
+            width:85vw;
+            margin-top:5%;
           }
         }
       }
@@ -1219,6 +1224,8 @@ footer {
 
 @media (max-width: $afv-media-phone){
   footer .footer-form .footer-left ul li {
+    line-height: 4rem;
+
     &::after {
       margin-right: 1px;
       margin-left: 6px;
