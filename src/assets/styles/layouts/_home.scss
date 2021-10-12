@@ -406,10 +406,14 @@ header {
 @media (max-width: $afv-media-phone) {
   .projects .container {
     padding-top: calc(66px + 7%);
-    padding-bottom: 7%;
+    padding-bottom: 0;
 
     .row .card {
       margin-bottom: 9%;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
 
       .card-body {
           padding-bottom: 5%;
@@ -536,8 +540,8 @@ header {
       padding-bottom:12%;
 
       .introduction p {
-        font-size: 1rem;
         padding-bottom: 2%;
+        font-size: 1rem;
       }
 
       h1{
@@ -625,8 +629,8 @@ header {
         padding-top: 5%;
         padding-bottom: 2%;
         padding-left: 0;
-        margin-left:0;
         margin-bottom: 3%;
+        margin-left:0;
       }
       
       .flexbox-container {
@@ -660,10 +664,12 @@ header {
   .about-me {
 
     .photocv {
-      padding-top: calc(66px + 7%);
+      padding-top: calc(7% + 33px);
+      margin-top: calc(7% + 33px);
 
       img{
         width: 88vw;
+        height: 50vh;
       }
     }
     
@@ -1128,15 +1134,15 @@ header {
       }
 
       .social-link a {
-          margin-left: 5vw;
+        margin-left: 6vw;
 
-          img {
-              height: 2.6rem;
-            }
+        img {
+          height: 2.6rem;
+        }
 
-          i {
-            font-size: 2.6rem;
-          }
+        i {
+          font-size: 2.6rem;
+        }
       }
     }
   }
