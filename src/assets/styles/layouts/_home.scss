@@ -405,7 +405,7 @@ header {
 
 @media (max-width: $afv-media-phone) {
   .projects .container {
-    padding-top: calc(66px + 7%);
+    padding-top: calc(33px + 7%);
     padding-bottom: 0;
 
     .row .card {
@@ -675,7 +675,7 @@ header {
     
     .curriculumvitae {
       padding-top: 7vh;
-      padding-bottom: calc(66px + 6%);
+      padding-bottom: calc(33px + 7%);
 
       .introduction p {
         width:88vw;
@@ -973,8 +973,8 @@ header {
 
         form {
           width: 85%;
-          padding-top: 8vh;
-          padding-bottom: 12vh;
+          padding-top: 7vh;
+          padding-bottom: 10vh;
 
           .form-control {
             padding-top: 8%;
