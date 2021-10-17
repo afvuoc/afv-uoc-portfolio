@@ -287,13 +287,14 @@ header {
 
 /* Media queries index*/
 @media (max-width: 1100px) {
-  .index .description {
+  .index {
+    .description {
       width: 45vw;
     }
-
     .slider {
       width: 55vw;
     }
+  } 
 }
 
 @media (max-width: $afv-media-tablet) {
